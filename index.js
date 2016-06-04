@@ -49,6 +49,6 @@ function drawDigitalClock() {
     context.moveTo(0,0);
     context.lineTo(110*Math.sin(Math.PI/6*(hour*60+minute)/60), -110*Math.cos(Math.PI/6*(hour*60+minute)/60));
     context.stroke();
-    //原点归左上角
+    //原点到左上角
     context.translate(-250,-250);
 }
